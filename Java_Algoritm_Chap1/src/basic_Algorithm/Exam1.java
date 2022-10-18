@@ -1,0 +1,23 @@
+package basic_Algorithm;
+
+public class Exam1 {
+
+	public static void main(String[] args) {
+		int min = minValue(5,9,2,13);
+		System.out.println("최솟값 = " + min);
+
+	}
+	public static int minValue(int d1,int d2,int d3,int d4) {
+		int min = d1;
+		if(d2<min) {
+			min = d2;
+		}
+		if(d3<min) {
+			min = d3;
+		}
+		if(d4<min) {
+			min = d4;
+		}
+		return min;
+	}
+}

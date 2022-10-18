@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/marmin/eclipse-BookAlgorithm/.metadata/.plugins/org.eclipse.jdt.core
+1364042033.index
+1865797976.index
+3816402250.index
