@@ -1,0 +1,17 @@
+package exam1;
+
+public class ArrayInitEx {
+
+	public static void main(String[] args) {
+		int[] arr1 = new int[1];//선언과 동시에 초깃값으로 초기화
+		int[] arr2 = new int[] {1,2,3};//배열 생성시 크기지정없이 저장할 요소만 명시
+		int[] arr3 = {1,2,3,4,5};//저장할 요소만 명시하는 방법
+		
+		System.out.println(arr1.length);
+		System.out.println(arr2.length);
+		System.out.println(arr3.length);
+		
+
+	}
+
+}
