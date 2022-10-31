@@ -41,6 +41,20 @@ public class SinglyLinkedList {
 		pointer.next = new Node(value,null);
 	}
 	
+	public void delete(int value) {
+		Node pointer = this.head;
+		if(pointer.getValue()==value) {
+			Node removeNode = this.head;
+			this.head = this.head.next;
+			
+			removeNode=null;
+			return;
+		}
+	}
+	
+	
+	
+	
 	public void printAll() { //전체 노드를 프린트하는 메서드
 		Node pointer = this.head;
 		
