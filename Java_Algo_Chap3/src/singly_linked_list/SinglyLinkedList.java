@@ -50,6 +50,19 @@ public class SinglyLinkedList {
 			removeNode=null;
 			return;
 		}
+		Node temp = pointer;
+		//포인터 변수가 null이 아니면서 인자 값과 달라질 떄 까지 반복
+		while(pointer != null && pointer.getValue() != value) {
+			temp = pointer;
+			pointer = pointer.next;
+		}
+		//마지막 노드를 삭제하는 경우
+		if(pointer.next == null) {
+			temp.next = null;
+		}else {
+			temp.next = pointer.next;
+		}
+		pointer = null;
 	}
 	
 	
