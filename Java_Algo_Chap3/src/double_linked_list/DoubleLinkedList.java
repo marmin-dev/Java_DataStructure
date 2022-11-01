@@ -49,6 +49,58 @@ public class DoubleLinkedList {
 					value,pointer.prev.getValue()));
 		}
 	}
+	public Node getHead() {
+		return this.head;
+	}
+	public void append(int value) {
+		if(this.head == null) {
+			this.head = new Node(value);
+			return;
+		}
+		Node pointer = this.head;
+		while(pointer.next !=null) {
+			pointer = pointer.next;
+		}
+		Node newNode = new Node(value);
+		newNode.prev = pointer;
+		pointer.next = newNode;
+	}
 	
+	public void delete(int value) {
+		Node pointer = this.head;
+		if(pointer.getValue() == value) {
+			Node removeNode = this.head;
+			this.head = this.head.next;
+			
+			removeNode = null;
+			return;
+		}
+		Node prevNode = pointer;
+		while(pointer != null && pointer.getValue() != value) {
+			prevNode = pointer;
+			pointer = pointer.next;
+		}
+		Node temp = pointer.next;
+		if(temp == null) {
+			prevNode.next = null;
+		}else {
+			temp.prev = prevNode;
+			prevNode.next = pointer.next;
+		}
+		pointer = null;
+	}
+	
+	public void printAll() {
+		Node pointer = this.head;
+		
+		StringBuilder builder = new StringBuilder();
+		while(pointer != null) {
+			builder.append(pointer.getValue());
+			builder.append("<->");
+			pointer = pointer.next;
+		}
+		builder.delete(builder.lastIndexOf("<->"),builder.length());
+		System.out.println(builder.toString());
+	}
 	
 }

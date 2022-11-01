@@ -11,6 +11,12 @@ public class DLLInsertionMain {
 		dll.append(20);
 		dll.append(19);
 		
+		System.out.println("이중 연결 리스트 : ");
+		
+		dll.printAll();
+		dll.printPrevNode(2);
+		dll.printPrevNode(1);
+		dll.printPrevNode(19);
 	}
 
 }
