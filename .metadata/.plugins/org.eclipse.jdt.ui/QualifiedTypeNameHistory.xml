@@ -5,8 +5,9 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="singly_linked_list.SinglyLinkedList"/>
     <fullyQualifiedTypeName name="singly_linked_list.DoubleLinkedList"/>
     <fullyQualifiedTypeName name="double_linked_list.DoubleLinkedList"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="circularLinkedList.CircularLinkedList"/>
 </qualifiedTypeNameHistroy>
