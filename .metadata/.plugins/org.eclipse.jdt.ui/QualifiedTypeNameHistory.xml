@@ -10,4 +10,12 @@
     <fullyQualifiedTypeName name="circularLinkedList.CircularLinkedList"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction"/>
+    <fullyQualifiedTypeName name="queue.ArrayQueue"/>
+    <fullyQualifiedTypeName name="queue.LinkedListQueue"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="circularQueue.CircularArray"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="deque.LinkedDeque"/>
 </qualifiedTypeNameHistroy>
